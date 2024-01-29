@@ -1,0 +1,27 @@
+Git Commands
+
+git init -- initalizing git
+
+git add . -- adding files
+
+git commit -m "first-commit" -- commiting changes
+
+git remote add origin https://github.com/hzahid400/new-project.git -- connect to remote repository
+
+git push -u origin master -- pushing changes to remote repo for the first time
+
+git pull -- pulling the latest changes 
+
+git status -- looking at the status
+
+git branch <branch-name> -- creating a branch
+
+git checkout <branch_name> -- switching branches
+
+git branch -m <new_branch_name> -- renaming branch name
+
+git branch -D <branch_name> -- deleting a branch
+
+git checkout main && git merge <feature_branch> -- merging changes from one branch to another
+
+git log <branch_name> -- viewing commit history of a branch
